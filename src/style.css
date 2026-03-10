@@ -79,3 +79,66 @@ nav > button{
 .introduction p:last-child {
     margin-bottom: 0;
 }
+
+#content.about {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+#content.about section {
+    padding-bottom: 28px;
+    margin-bottom: 28px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+#content.about section:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#content.about h2 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: #222222;
+}
+
+#content.about p {
+    font-size: 1rem;
+    color: #555555;
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+.location-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.location-card h3 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #222222;
+}
+
+.location-card p {
+    margin-bottom: 8px;
+}
+
+.address-en {
+    color: #444444;
+}
+
+.address-zh {
+    color: #666666;
+}
+/* If screen width <= 768px , change .location-grid to one column. */
+@media (max-width: 768px) {
+    .location-grid {
+        grid-template-columns: 1fr;
+    }
+}
