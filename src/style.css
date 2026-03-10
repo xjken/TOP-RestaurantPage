@@ -1,8 +1,14 @@
-body{
-    box-sizing: border-box;
-    padding: 0;
+* {
     margin: 0;
-    width: 100vw;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", "Segoe UI", Arial, sans-serif;
+    background-color: #ffffff;
+    color: #222222;
+    line-height: 1.6;
 }
 
 header{
@@ -10,6 +16,7 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 1rem;
 }
 header > p {
     font-size: 2.5rem;
@@ -29,8 +36,46 @@ nav > button{
     font-size: 1.5rem
 }
 
-#content home{
-    min-height: 85vh;
-    display: flex;
-    /* border: 1px solid ; */
+#content.home {
+    margin: 0 auto;
+    padding: 60px 20px;
+
+    border: 1px solid;
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 56px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    color: #666666;
+}
+
+.introduction {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.introduction h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.introduction p {
+    font-size: 1rem;
+    color: #444444;
+    margin-bottom: 16px;
+}
+
+.introduction p:last-child {
+    margin-bottom: 0;
 }
