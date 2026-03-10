@@ -1,0 +1,27 @@
+{
+  "name": "top-restaurantpage",
+  "version": "1.0.0",
+  "description": "TOP Javascript Course, Project: Restaurant Page. Using Webpack bundler.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xjken/TOP-RestaurantPage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/xjken/TOP-RestaurantPage/issues"
+  },
+  "homepage": "https://github.com/xjken/TOP-RestaurantPage#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.6",
+    "webpack": "^5.105.4",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.3"
+  }
+}
