@@ -24,7 +24,7 @@ export function loadHome() {
     h2.textContent = "Welcome";
 
     const introP1 = document.createElement("p");
-    introP1.textContent = "Welcome to The Uncle Pizza, a cozy pizza shop located on Hankou Xi Lu in Gulou District, Nanjing. We make fresh pizza every day using homemade dough and quality ingredients.";
+    introP1.textContent = "Welcome to The Uncle Pizza, a cozy pizza shop located on Hankou Xi Lu in Gulou District and Yiwu Small Commodity City, Chunhua Street, Jiangning District, Nanjing. We make fresh pizza every day using homemade dough and quality ingredients.";
 
     const introP2 = document.createElement("p");
     introP2.textContent = "Whether you're grabbing a quick lunch, meeting friends after class, or enjoying a relaxed dinner, Uncle Pizza is the perfect place to enjoy simple and delicious food.";
