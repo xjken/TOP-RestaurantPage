@@ -142,3 +142,65 @@ nav > button{
         grid-template-columns: 1fr;
     }
 }
+
+#content.menu {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+#content.menu h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    justify-content: center;
+    gap: 12px;
+}
+
+.menu-card {
+    width: 360px;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: auto auto auto;
+    padding: 16px;
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    gap: 8px 12px;
+}
+
+.menu-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    grid-column: 1 / span 2;
+    border-radius: 8px;
+}
+
+.menu-card .name {
+    grid-column: 1;
+    grid-row: 2;
+    font-weight: 600;
+}
+
+.menu-card .desc {
+    grid-column: 1;
+    grid-row: 3;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.menu-card .price {
+    grid-column: 2;
+    grid-row: 2 / span 2;
+    justify-self: end;
+    align-self: center;
+    font-weight: 600;
+}
